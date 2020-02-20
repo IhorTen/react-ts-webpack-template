@@ -1,0 +1,24 @@
+{
+  "name": "react-ts-webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IhorTen/react-ts-webpack-template.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "IhotTen <tenyachkinigor1992@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IhorTen/react-ts-webpack-template/issues"
+  },
+  "homepage": "https://github.com/IhorTen/react-ts-webpack-template#readme"
+}
