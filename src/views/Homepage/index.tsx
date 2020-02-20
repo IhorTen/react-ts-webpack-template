@@ -1,6 +1,8 @@
 import React from 'react'
 import { RouteComponentProps } from "react-router"
 
+import "styles/views/homepage"
+
 
 export interface HomepageProps extends RouteComponentProps<any> {}
 

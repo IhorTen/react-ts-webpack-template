@@ -1,7 +1,11 @@
 import React from 'react'
 import { RouteComponentProps, Switch, Route } from "react-router"
 
-import Homepage from "./views/Homepage"
+import "styles/main"
+import "styles/universal"
+
+import Homepage from "views/Homepage"
+// import NotFound from "views/NotFound"
 
 export interface ApplicationProps extends RouteComponentProps<any>{}
 
