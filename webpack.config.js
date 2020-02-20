@@ -94,7 +94,7 @@ module.exports = {
 		extensions: [".js", ".jsx", ".sass", ".json", ".css", ".ts", ".tsx"]
     },
     optimization: {
-		minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
+		minimizer: [new TerserWebpackPlugin({}), new OptimizeCssAssetsPlugin({})],
     },
     plugins: [
         new webpack.DefinePlugin({

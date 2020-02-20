@@ -18,7 +18,7 @@ extends React.Component<HomepageProps, HomepageState> {
                     Hi User!
                 </p>
                 <div className="container">
-                    <button className="u-btn">
+                    <button className="u-button">
                         Click me!
                     </button>
                 </div>
