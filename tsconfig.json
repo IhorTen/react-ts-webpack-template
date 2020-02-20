@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "target": "ES5",
+        "moduleResolution": "Node",
+        "baseUrl": "src",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "strict": false,
+        "sourceMap": true,
+        "outDir": "dist/",
+        "jsx": "react",
+        "traceResolution": true,
+        "experimentalDecorators": false,
+        "emitDecoratorMetadata": false,
+        "allowJs": true,
+        "declaration": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "types": ["node"],
+        "lib": ["ES6", "DOM", "DOM.Iterable"],
+        "downlevelIteration": true,
+        "resolveJsonModule": true,
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
