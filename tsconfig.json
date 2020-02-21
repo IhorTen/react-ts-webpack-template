@@ -1,9 +1,6 @@
 {
     "compilerOptions": {
         "module": "ESNext",
-        "typeRoots": [
-            "./node_modules/@types"
-        ],
         "target": "ES5",
         "moduleResolution": "Node",
         "baseUrl": "src",
@@ -26,8 +23,11 @@
         "lib": ["ES6", "DOM", "DOM.Iterable"],
         "downlevelIteration": true,
         "resolveJsonModule": true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
     },
     "include": [
-        "src/**/*"
+        "./src/**/*"
     ]
 }

@@ -3,7 +3,6 @@ import { RouteComponentProps } from "react-router"
 
 import "styles/views/homepage"
 
-
 export interface HomepageProps extends RouteComponentProps<any> {}
 
 export interface HomepageState {}
@@ -19,12 +18,13 @@ extends React.Component<HomepageProps, HomepageState> {
                 </p>
                 <div className="container">
                     <button className="u-button">
-                        Click me!
+                        Click Me!
                     </button>
                 </div>
                 <p>
                     This is Template for React+Typescript
                 </p>
+                <img src="../../../static/logo.png"/>
             </main>
         </>
     }
