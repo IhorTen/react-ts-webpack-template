@@ -18,13 +18,15 @@ extends React.Component<HomepageProps, HomepageState> {
                 </p>
                 <div className="container">
                     <button className="u-button">
-                        Click Me!
+                        Click Me to start logo anomation!
                     </button>
+                    <div className="homepage-content">
+                        This is Template for React+Typescript projects
+                    </div>
+                    <div className="img-container">
+                        <img src="/static/images/logo.png"/>
+                    </div>
                 </div>
-                <p>
-                    This is Template for React+Typescript
-                </p>
-                <img src="../../../static/logo.png"/>
             </main>
         </>
     }

@@ -1,18 +1,36 @@
 @import "styles/vars"
 
 main.v-homepage
-    height: 100%
+    height: 100vh
     padding: 1rem
     background-color: #589b5065
     > *
         text-align: center
 
     .homepage-title
-        font-size: 30px
+        font-family: $fontMain
+        font-size: 40px
         font-weight: 700
         color: #2b35c5
-        margin: 1rem
+        margin: 2rem
 
-    img
-        display: block
-        margin: 40px auto
+    .homepage-content
+        padding: 2rem
+        font-family: $fontMain
+        display: flex
+        justify-content: center
+        font-size: 15px
+
+    .img-container
+        img
+            display: block
+            max-width: 500px
+            border-radius: 50%
+            position: fixed
+            bottom: 200px
+            right: 0
+            left: 0
+
+    button
+        font-size: 17px
+        padding: 15px 20px
