@@ -1,6 +1,7 @@
 import React from 'react'
 import { RouteComponentProps, Switch, Route } from "react-router"
 
+import "styles/fonts"
 import "styles/main"
 import "styles/universal"
 
