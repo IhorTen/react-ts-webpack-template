@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/IhorTen/react-ts-webpack-template#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
